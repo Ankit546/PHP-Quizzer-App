@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: arial;
+	line-height: 1.6em;
+	/*this line-height is very important for a clean UI*/
+
+}
+.container{
+	width: 60%;
+	margin:0 auto;
+	/*overflow: auto;*/
+
+}
+.container h1{
+	padding: 10px;	
+}
+header{
+	border-bottom: 3px #f4f4f4 solid;
+}
+main h3{
+	padding-bottom: 20px;
+}
+main{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+li{
+	list-style: none;
+	padding: 5px;
+	margin:0 auto ;
+}
+a{
+	text-decoration: none;
+	border: 2px dotted #ccc;
+	padding:6px 13px;
+	margin-top:10px ;
+	color:#aaa;
+	display: inline-block;
+	background:#f4f4f4;
+}
+input[type=text]{
+	width: 97%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+
+}
+input[type=number]{
+	width: 50px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+
+}
+label{
+	display: inline-block;
+	width: 180px;
+	}
+footer{
+	text-align: center;
+	padding-top:20px;
+	border-top: 3px #f4f4f4 solid;
+}
+.question{
+	padding: 5px;
+}
+.current{
+	padding:10px;
+	background: #f4f4f4;
+	border:2px solid #ccc;
+	/*display: inline-block;*/
+	margin:10px 0 10px 0;
+
+}
+.choices{
+	margin-left: 50px;
+}
+
+@media only screen and (max-width: 960px;){
+	.container{
+		width: 80%;
+	}
+}

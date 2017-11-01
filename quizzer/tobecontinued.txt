@@ -1,0 +1,4 @@
+left off at making the process.php page
+dont know if admin page is done or not
+but the retrieval, question display, total questions all are dynamic
+
